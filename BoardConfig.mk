@@ -89,8 +89,8 @@ BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_PARTITION_SIZE := 2147483648
 
 # File systems
-TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
+TARGET_USERIMAGES_USE_EXT4 := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 TARGET_COPY_OUT_VENDOR := vendor
@@ -149,7 +149,7 @@ TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_DEFAULT_LANGUAGE := en
 TW_NO_LEGACY_PROPS := true
 TW_MAX_BRIGHTNESS := 4095
-TW_DEFAULT_BRIGHTNESS := 1950
+TW_DEFAULT_BRIGHTNESS := 2550
 
 # ---- various build issues ---- #
 ALLOW_MISSING_DEPENDENCIES := true
